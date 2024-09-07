@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net462</TargetFrameworks>
+    <Title>RocketLeagueReplayParser.Console</Title>
+    <Company>Joe Bott</Company>
+    <Product>RocketLeagueReplayParser.Console</Product>
+    <Copyright>Copyright © 2018</Copyright>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RocketLeagueReplayParser\RocketLeagueReplayParser.csproj" />
+  </ItemGroup>
+</Project>

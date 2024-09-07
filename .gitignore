@@ -1,0 +1,11 @@
+bin
+obj
+packages
+*.suo
+*.orig
+replays/
+*.nupkg
+*.user
+*.bak
+.vs
+publish/
